@@ -1,0 +1,13 @@
+.git
+.github
+.superpowers
+.venv
+**/__pycache__
+**/*.py[cod]
+.pytest_cache
+report.json
+tests
+
+# Only the published example suite may enter a container build context.
+data/*
+!data/public.json
